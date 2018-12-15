@@ -24,6 +24,7 @@ export default class SearchBar extends React.Component {
 							onChange={e =>
 								this.setState({ term: e.target.value })
 							}
+							autofocus
 						/>
 					</div>
 				</form>
